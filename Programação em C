@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 int main(){
-    //Usuário: raphaelatzreis "Matrícula:202221041\nAluna: Raphaela Tamara Zille dos Reis\nInsituição: Universidade La Salle\nCursando: Análise e Desenvolvimento de Sistemas"//
+    //Usuário: raphaelatzreis \nMatrícula:202221041\nAluna: Raphaela Tamara Zille dos Reis\nInsituição: Universidade La Salle\nCursando: Análise e Desenvolvimento de Sistemas"//
     float num1,num2;
     printf("\n\nInsira um número: ");
     scanf("%f",&num1);
