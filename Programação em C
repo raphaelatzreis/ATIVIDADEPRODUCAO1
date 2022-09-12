@@ -1,0 +1,29 @@
+#include <math.h>
+#include <stdio.h>
+int main(){
+    //"Matrícula:202221041\nAluna: Raphaela Tamara Zille dos Reis\nInsituição: Universidade La Salle\nCursando: Análise e Desenvolvimento de Sistemas"//
+    float num1,num2;
+    printf("\n\nInsira um número: ");
+    scanf("%f",&num1);
+    printf("\nInsira outro número: ");
+    scanf("%f",&num2);
+    int operador;
+    printf("\n\nInsira 1 para imprimir a raiz quadrada dos números e digite 2 para dividir: ");
+    scanf("%d",&operador);
+    float div=num1/num2;
+    float sqrt1= sqrt(num1);
+    float sqrt2= sqrt(num2);
+    
+switch(operador){
+    case 1:
+    printf("\nA raiz quadrada dos números é, respectivamente: ****%0.1f e %0.1f****",sqrt1,sqrt2);
+    break;
+    
+    case 2:
+    printf("A divisão dos números é ****%0.1f****",div);
+    break;
+    
+    default:
+    printf("****Inválido****");
+}
+}
